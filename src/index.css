@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Poppins:wght@400;500;600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+body {
+  background-color: var(--cor-c1);
+}
+
+h1,
+p,
+h2,
+h3,
+article,
+ul,
+footer,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+body::-webkit-scrollbar {
+  border-right: 1px solid var(--cor-p13);
+  border-left: 1px solid var(--cor-p13);
+  border-radius: 1px;
+  width: 5px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--cor-p13);
+  border-radius: 5px;
+  width: 1px;
+}
+
+.produtos-lista ul::-webkit-scrollbar {
+  border: 1px solid var(--cor-p13);
+  border-radius: 15px;
+  width: 1px;
+  height: 10px;
+}
+
+.produtos-lista ul::-webkit-scrollbar-thumb {
+  background-color: var(--cor-p13);
+  border-radius: 15px;
+  width: 1px;
+}
+
+.botao-whatsapp a {
+  background-color: var(--cor-p12);
+  border-radius: 15px;
+  padding: 5px 15px;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  color: var(--cor-c1);
+  gap: 10px;
+  bottom: 10px;
+  right: 20px;
+  font-size: 2rem;
+  /* width: 30px; */
+}
+
+.botao-whatsapp p {
+  color: var(--cor-c1);
+  text-transform: uppercase;
+  display: none;
+}
+
+.botao-whatsapp p:hover {
+  display: block;
+
+}
+
+.container-formulario {
+  max-width: 1400px;
+  padding: 50px 60px;
+  margin: 0 auto;
+}
