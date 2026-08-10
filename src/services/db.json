@@ -1,0 +1,87 @@
+{
+  "pao-de-mel": [
+    {
+      "title": "Pães de Mel"
+    },
+    {
+      "poster_img": "/paodemel.png",
+      "title": "Pão de mel doce de leite",
+      "price": 7.0,
+      "id": 1
+    },
+    {
+      "poster_img": "/paodemel.png",
+      "title": "Pão de mel coco",
+      "price": 7.0,
+      "id": 2
+    },
+    {
+      "poster_img": "/paodemel.png",
+      "title": "Pão de mel Uva",
+      "price": 7.0,
+      "id": 3
+    }
+  ],
+  "cone-trufado": [
+    {
+      "title": "Cones trufados"
+    },
+    {
+      "poster_img": "/cone.png",
+      "title": "Cone trufado brigadeiro",
+      "price": 8.0,
+      "id": 1
+    },
+    {
+      "poster_img": "/cone.png",
+      "title": "Cone trufado beijinho",
+      "price": 8.0,
+      "id": 2
+    },
+    {
+      "poster_img": "/cone.png",
+      "title": "Cone trufado Uva",
+      "price": 8.0,
+      "id": 3
+    }
+  ],
+  "mais-vendidos": [
+     {
+      "title": "Mais Vendidos"
+    },
+     {
+      "poster_img": "/paodemel.png",
+      "title": "Pão de mel doce de leite",
+      "price": 7.0,
+      "id": 1
+    },
+    {
+      "poster_img": "/cone.png",
+      "title": "Cone trufado beijinho",
+      "price": 8.0,
+      "id": 2
+    }
+  ],
+  "avaliacoes": [
+    {
+      "nome": "Ana Maria",
+      "text": "\"O melhor pão de mel que já comi na vida! A massa é incrivelmente fofinha e úmida, e o recheio de doce de leite é na medida certa, sem ser enjoativo.\""
+    },
+    {
+      "nome": "Ana Luísa",
+      "text": "\"Que delícia! A casquinha é super crocante, e a trufa do recheio é cremosa e saborosa. Não fica aquele cone mole ou murcho, o que é um grande diferencial.\""
+    },
+    {
+      "nome": "Ana Júlia",
+      "text": "\"A melhor alternativa para quem ama chocolate! A trufa é macia e consistente, e o cone não estava quebrado. A entrega foi rápida e o produto veio perfeito.\""
+    },
+    {
+      "nome": "Ana Carolina",
+      "text": "\"Sabor de infância e aconchego. O aroma de especiarias é marcante, e a cobertura de chocolate tem uma espessura perfeita.\""
+    },
+    {
+      "nome": "Ana Carla",
+      "text": "\"Doce na medida certa! Não é excessivamente açucarado. O recheio de beijinho é leve e o chocolate da casquinha complementa perfeitamente. Quero provar todos os sabores!\""
+    }
+  ]
+}
