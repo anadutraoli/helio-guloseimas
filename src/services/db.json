@@ -64,22 +64,27 @@
   ],
   "avaliacoes": [
     {
+      "id": 1,
       "nome": "Ana Maria",
       "text": "\"O melhor pão de mel que já comi na vida! A massa é incrivelmente fofinha e úmida, e o recheio de doce de leite é na medida certa, sem ser enjoativo.\""
     },
     {
+      "id": 2,
       "nome": "Ana Luísa",
       "text": "\"Que delícia! A casquinha é super crocante, e a trufa do recheio é cremosa e saborosa. Não fica aquele cone mole ou murcho, o que é um grande diferencial.\""
     },
     {
+      "id": 3,
       "nome": "Ana Júlia",
       "text": "\"A melhor alternativa para quem ama chocolate! A trufa é macia e consistente, e o cone não estava quebrado. A entrega foi rápida e o produto veio perfeito.\""
     },
     {
+      "id": 4,
       "nome": "Ana Carolina",
       "text": "\"Sabor de infância e aconchego. O aroma de especiarias é marcante, e a cobertura de chocolate tem uma espessura perfeita.\""
     },
     {
+      "id": 5,
       "nome": "Ana Carla",
       "text": "\"Doce na medida certa! Não é excessivamente açucarado. O recheio de beijinho é leve e o chocolate da casquinha complementa perfeitamente. Quero provar todos os sabores!\""
     }
