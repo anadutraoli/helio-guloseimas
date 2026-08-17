@@ -1,5 +1,6 @@
 import "./introducao.css";
 import coneEPaoDeMel from "../../../../assets/main.png"
+import { Link } from "react-router-dom";
 
 export default function Introducao() {
   return (
@@ -15,9 +16,7 @@ export default function Introducao() {
             com ingredientes de qualidade e carinho, cada mordida é uma
             experiência única. Se entregue aos prazeres doces da vida conosco!
           </p>
-          <a href="./produtos.html" className="botao introducao-botao">
-            saiba mais
-          </a>
+          <Link to={"/produtos"} className="botao introducao-botao">saiba mais</Link>
         </div>
         <img src={coneEPaoDeMel} alt="cone e pao de mel" />
       </div>
