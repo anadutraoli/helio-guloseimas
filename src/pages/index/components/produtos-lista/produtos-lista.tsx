@@ -2,20 +2,12 @@ import { useEffect, useState } from "react";
 import "./produtos-lista.css";
 import { carregarDados } from "../../../../services/api";
 import formatPrice from "../../../../utils/formatPrice";
+import type { IndexProdutoListaProps, IndexProdutoProps } from "../../type";
 
-type Produto = {
-  id?: string | number;
-  poster_img?: string;
-  title?: string;
-  price?: string;
-};
 
-type Props = {
-  bd: string;
-};
 
-export default function ProdutosLista({ bd }: Props) {
-  const [itens, setItens] = useState<Produto[]>([]);
+export default function ProdutosLista({ bd }: IndexProdutoProps) {
+  const [itens, setItens] = useState<IndexProdutoListaProps[]>([]);
 
   useEffect(() => {
     carregarDados(bd)
@@ -27,7 +19,7 @@ export default function ProdutosLista({ bd }: Props) {
       });
   }, [bd]);
 
-  const produtos = itens.slice(1) as Produto[];
+  const produtos = itens.slice(1) as IndexProdutoListaProps[];
 
   return (
     <section className="produtos-lista container">
@@ -35,7 +27,7 @@ export default function ProdutosLista({ bd }: Props) {
         {`Nossos deliciosos ${itens[0]?.title}`}
       </h1>
       <ul>
-        {produtos?.map((produto: Produto) => (
+        {produtos?.map((produto: IndexProdutoListaProps) => (
           <li key={produto?.id}>
             <img src={produto?.poster_img} alt={produto?.title ?? "produto"} />
             <h2 className="produto-item-titulo">{produto?.title}</h2>

@@ -4,15 +4,10 @@ import { useEffect, useState } from "react";
 import { carregarDados } from "../../../../services/api";
 import { Autoplay } from "swiper/modules";
 import "swiper/css";
-
-type Avaliacoes = {
-  id: number;
-  nome: string;
-  text: string;
-};
+import type { IndexAvaliacoesProps } from "../../type";
 
 export default function Avaliacoes() {
-  const [avaliacoes, setAvaliacoes] = useState<Avaliacoes[]>([]);
+  const [avaliacoes, setAvaliacoes] = useState<IndexAvaliacoesProps[]>([]);
 
   useEffect(() => {
     carregarDados("avaliacoes")
